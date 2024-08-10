@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>StickyNotes</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="leftNavPart">
+      <span class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">
+          <div class="line marginLine"></div>
+          <div class="line marginLine"></div>
+          <div class="line"></div>
+
+        </button>
+        <div id="drop" class="dropdown-content">
+          <a href="#Home" class="active">Home</a>
+          <a href="#About" class="ok">About</a>
+          <a href="#Contact" class="ok">Contact</a>
+        </div>
+      </span>
+
+      <span class="txt">StickyNotes</span>
+    </div>
+    <div class="navSearch">
+      <input id="search" type="text" placeholder="Search...">
+      <button id="butn" type="submit">Submit</button>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-4">Notes App</h1>
+      <p class="lead">This app facilitates the function of making To-Do tasks. To create one add the title and the info.
+      </p>
+
+      <a class="btn btn-primary btn-lg" href="#About" role="button">Learn more</a>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Title</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter Title">
+
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Note</label>
+              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Note">
+            </div>
+           <div  class="d-flex justify-content-between">
+            <button class="btn btn-primary" onclick="btnSubmit()" type="button">Submit</button>
+            
+           </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="cardContainer" class="row" style="justify-content: center;">
+
+    </div>
+  </div>
+
+
+
+
+
+  <footer>
+    <div class="footer">
+
+      <ul class="socials">
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-github"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+      </ul>
+      <div class="footer-copyright">
+        <p>copyright &copy;2023 </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
