@@ -8,8 +8,8 @@ NotoLog is a simple and intuitive web app for creating and managing sticky notes
 
 ## 📸 Screenshots
 
+![NotoLog Screenshot](notolog-ss.png)
 
-<!-- ![App Screenshot](screenshot.png) -->
 
 ## 🧰 Tech Stack
 
