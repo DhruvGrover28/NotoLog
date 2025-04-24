@@ -183,3 +183,21 @@ footer {
   background-color: #0056b3;
   border-color: #0056b3;
 }
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.navbar.dark-mode {
+  background-color: #333;
+}
+
+.card.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+footer.dark-mode {
+  background-color: #333;
+}
