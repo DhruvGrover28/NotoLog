@@ -33,7 +33,7 @@ function displayNotes() {
             <span aria-hidden="true">&times;</span>
           </button>
           <h5 class="card-title">${title}</h5>
-          <p class="card-text">${note}</p>
+          <p class="card-text">${note.replace(/\n/g, "<br>")}</p>
         </div>
       </div>
     `;
