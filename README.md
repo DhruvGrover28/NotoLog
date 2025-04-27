@@ -1,4 +1,4 @@
-# 🗒️ NotoLog
+# 🗒️ TaskDen
 
 NotoLog is a simple and intuitive web app for creating and managing sticky notes (To-Do tasks). Just enter a title and description, and you're good to go!
 
