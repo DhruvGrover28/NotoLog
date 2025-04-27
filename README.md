@@ -8,7 +8,7 @@ TaskDen is a simple and intuitive web app for creating and managing sticky notes
 
 ## 📸 Screenshots
 
-![TaskDen Screenshot](taskden-ss.png)
+![TaskDen Screenshot](TaskDen-ss.png)
 
 
 ## 🧰 Tech Stack
