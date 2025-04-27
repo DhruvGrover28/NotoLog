@@ -1,14 +1,14 @@
 # 🗒️ TaskDen
 
-NotoLog is a simple and intuitive web app for creating and managing sticky notes (To-Do tasks). Just enter a title and description, and you're good to go!
+TaskDen is a simple and intuitive web app for creating and managing sticky notes (To-Do tasks). Just enter a title and description, and you're good to go!
 
 ## 🚀 Live Demo
 
-👉 [Check it out on Netlify](https://notolog.netlify.app/)  
+👉 [Check it out on Netlify](https://task-den.netlify.app/)  
 
 ## 📸 Screenshots
 
-![NotoLog Screenshot](notolog-ss.png)
+![TaskDen Screenshot](taskden-ss.png)
 
 
 ## 🧰 Tech Stack
@@ -27,8 +27,8 @@ NotoLog is a simple and intuitive web app for creating and managing sticky notes
 
 ## 🔗 Links
 
-- 📂 [Source Code](https://github.com/DhruvGrover28/NotoLog)
-- 📖 [Read Documentation](https://github.com/DhruvGrover28/NotoLog/blob/master/README.md)
+- 📂 [Source Code](https://github.com/DhruvGrover28/TaskDen)
+- 📖 [Read Documentation](https://github.com/DhruvGrover28/TaskDen/blob/master/README.md)
 - 🙋‍♂️ [Contact Developer](mailto:grover.dhruv28@gmail.com)
 - 💼 [LinkedIn](https://www.linkedin.com/in/dhruv-grover28/)
 - 🐙 [GitHub](https://github.com/DhruvGrover28)
@@ -37,5 +37,5 @@ NotoLog is a simple and intuitive web app for creating and managing sticky notes
 
 1. Clone the repo
    ```bash
-   git clone https://github.com/DhruvGrover28/NotoLog.git
+   git clone https://github.com/DhruvGrover28/TaskDen.git
 
